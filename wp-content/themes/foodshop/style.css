@@ -1,0 +1,294 @@
+/*
+Theme Name: FoodShop
+Theme URI: https://afthemes.com/products/foodshop/
+Author: AF themes
+Author URI: https://afthemes.com
+Description:  FoodShop is a child theme of Storeship. This theme has modified main banner layout. Crafted with substantial study in mind on new online shopping sites and eCommerce features. With a sleek style, stable usability and excellent user experience, it is a mobile responsive theme.With the support of live customizer theme options, when you start creating a gorgeous store, you can launch it as a fashion and clothing store, accessories shop, home appliances site, car store, digital shop, interior store, book shop, picture shop, movie shop, online food order platforms and more. The theme is consistent with Gutenberg / RTL as well as designed to put the website at the top of the search engines. If any issues arise whilst using the theme, users will get excellent team support.
+Version: 1.0.1
+Requires PHP: 5.3
+Tested up to: 5.7
+Template: storeship
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: foodshop
+Tags: blog, e-commerce, entertainment, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-menu, featured-images, full-width-template, custom-header, translation-ready, theme-options, threaded-comments, rtl-language-support
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+FoodShop is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+FoodShop is a child theme of "Storeship". Storeship Theme is licensed under the GPL v2. Copyright 2021 AF themes
+FoodShop is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+body .af-spinners::after {
+    border-color: #689d19;
+}
+body .af-spinners {
+    border-top-color: #689d19;
+}
+
+body .menu-description,
+body .af-cart-icon-and-count .item-count,
+body .aft-wooicon .aft-woo-counter{
+    background: #f44336;
+}
+body .menu-description:after{
+    border-top: 5px solid #f44336;
+}
+
+.woocommerce.single-product span.title-note span, body span.title-note span, span.offer-date-counter > span, .posts_latest_widget .posts-date, body .badge-wrapper span.onsale, body .express-off-canvas-panel a.offcanvas-nav i{
+    background: #f44336;
+}
+body span.title-note span:after{
+    border-top: 5px solid #f44336;
+}
+
+.woocommerce.single-product span.onsale, .woocommerce span.onsale,
+.woocommerce span.onsale,
+.right-list-section .category-dropdown .product-loop-wrapper span.onsale,
+.woocommerce .aft-product-list-mode .product-image-wrapper span.onsale,
+.woocommerce ul.products li.product .onsale,
+li.aft-category-list span.category-badge-wrapper span.product-onsale-count,
+.featured-category-item .feature-category-item-single .feat-offers-wrapper .feat-discount-text {
+    background: #f44336;
+}
+li.aft-category-list span.category-badge-wrapper span.product-onsale-count::before {
+    border-right-color: #f44336;
+}
+
+
+.menu-description,
+.af-cart-icon-and-count .item-count,
+.aft-wooicon .aft-woo-counter{
+    background: #f44336;
+}
+.menu-description:after{
+    border-top: 5px solid #f44336;
+}
+
+.woocommerce.single-product span.title-note span,
+body span.title-note span,
+span.offer-date-counter > span,
+.posts_latest_widget .posts-date,
+body .badge-wrapper span.onsale,
+body .express-off-canvas-panel a.offcanvas-nav i{
+    background: #f44336;
+}
+body span.title-note span:after{
+    border-top: 5px solid #f44336;
+}
+
+.woocommerce.single-product span.onsale, .woocommerce span.onsale,
+.woocommerce span.onsale,
+.right-list-section .category-dropdown .product-loop-wrapper span.onsale,
+.woocommerce .aft-product-list-mode .product-image-wrapper span.onsale,
+.woocommerce ul.products li.product .onsale,
+li.aft-category-list span.category-badge-wrapper span.product-onsale-count,
+.featured-category-item .feature-category-item-single .feat-offers-wrapper .feat-discount-text {
+    background: #f44336;
+}
+li.aft-category-list span.category-badge-wrapper span.product-onsale-count::before {
+    border-right-color: #f44336;
+}
+
+.testimonial-carousel .item .testi-img-author-desc .testi-description-wrapper a,
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li.active,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active,
+.woocommerce-page div.product .woocommerce-tabs ul.tabs li.active,
+p.awpa-more-posts a,
+.entry-content > p span.read-more-faq a:not([class]),
+.header-style-3 .header-right-part .custom-link a,
+a.post-edit-link,
+.counter-call-to-action .section-call-action .cta-button-link a,
+body .woocs_rates_current_currency,
+body .woocommerce-currency-switcher-form .dd-selected, body .woocs_converter_shortcode_from, body .woocs_converter_shortcode_to,
+body.woocommerce-js footer .widget_search .search-form input.search-submit,
+body.woocommerce-js footer .widget_product_search .woocommerce-product-search button,
+.storeship-widget.widget_mc4wp_form_widget input[type=submit], .inner-suscribe input[type=submit],
+.aft-top-categories-vertical-lists h3,
+.featured-category-item .feature-category-item-single .feat-offers-wrapper a,
+.woocommerce li.product .product-description .aft-add-to-cart-wrapper > a.button,
+.woocommerce li.product .aft-add-to-cart-wrapper > a.button,
+.woocommerce nav.woocommerce-pagination ul li span.current,
+.woocommerce .widget_shopping_cart_content a.button.wc-forward,
+.woocommerce .widget_shopping_cart_content a.button.checkout,
+body.woocommerce-js footer .widget form.woocommerce-product-search button[type="submit"],
+body.woocommerce-js footer .widget_search .search-form .search-submit,
+body .secondary-color,
+span.aft-view-all-products,
+.aft-top-categories-vertical-lists .af-top-cat-head,
+#yith-wcwl-popup-message .aft-notification-button a,
+#yith-wcwl-popup-message .aft-notification-button a:hover,
+body span.header-after:after,
+body #secondary .widget-title span:after,
+body .exclusive-posts .exclusive-now,
+body span.trending-no,
+body .wpcf7-form .wpcf7-submit,
+body #scroll-up,
+body .sale-background.no-image,
+body span.offer-time.btn-style1 a:hover,
+body .content-caption .aft-add-to-wishlist.btn-style1 a:hover,
+table.compare-list .add-to-cart td a,
+.yith-woocompare-widget a.compare:hover,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+.style-3-search button[type="submit"],
+.style-3-search button[type="submit"]:hover,
+.woocommerce #respond input#submit.alt.disabled, .woocommerce #respond input#submit.alt:disabled, .woocommerce #respond input#submit.alt:disabled[disabled], .woocommerce #respond input#submit.alt:disabled[disabled]:hover,.woocommerce button.button:disabled, .woocommerce button.button:disabled[disabled], .woocommerce a.button.alt.disabled,  .woocommerce a.button.alt:disabled, .woocommerce a.button.alt:disabled[disabled], .woocommerce button.button.alt.disabled, .woocommerce button.button.alt.disabled:hover, .woocommerce button.button.alt:disabled, .woocommerce button.button.alt:disabled:hover, .woocommerce button.button.alt:disabled[disabled], .woocommerce input.button.alt.disabled, .woocommerce input.button.alt:disabled,.woocommerce input.button.alt:disabled[disabled],
+button:not(.aft-custom-qty-btn),
+input[type="button"], input[type="reset"], input[type="submit"],
+button:not(.aft-custom-qty-btn):active,
+button:not(.aft-custom-qty-btn):focus,
+input[type="button"]:active, input[type="button"]:focus, input[type="reset"]:active, input[type="reset"]:focus, input[type="submit"]:active, input[type="submit"]:focus,
+.contact-form .wpcf7-form .wpcf7-submit,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce .btn-style1 a,
+.banner-slider-5 .nav-tabs>li>a:not(.active),
+.banner-slider-5 .nav-tabs>li>a:not(.active):focus,
+.banner-slider-5 .nav-tabs>li>a:not(.active):hover,
+.btn-style1 a,
+.btn-style1 a:visited,
+.btn-style1 a:focus,
+.reply a.comment-reply-link,
+.inner-suscribe input[type=submit],
+body input.search-submit{
+    background: #689d19;
+    border-color: #689d19;
+}
+.woocommerce-account .entry-content .woocommerce-MyAccount-navigation ul li:hover,
+body.single .entry-summary .yith-wcwl-wishlistexistsbrowse a::after,
+body.single .entry-summary .yith-wcwl-wishlistaddedbrowse a::after,
+.woocommerce-form-coupon-toggle .woocommerce-info a.showcoupon:after,
+.woocommerce ul.cart_list li a.remove, .woocommerce a.remove,
+.select2-container--default .select2-results__option--highlighted[aria-selected],
+.select2-container--default .select2-results__option--highlighted[data-selected]{
+    background: #689d19 !important;
+}
+footer.site-footer .tabbed .nav-tabs>li>a:hover,
+footer.site-footer .primary-footer .social-widget-menu ul li a,
+footer.site-footer .primary-footer .em-author-details ul li a,
+footer.site-footer .primary-footer .tagcloud a:hover{
+    border-color: #689d19;
+}
+.woocommerce nav.woocommerce-pagination ul li span,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.cube__side {
+    border-color: #689d19;
+}
+.woocommerce-info {
+    border-top-color: #689d19;
+}
+button.aft-custom-qty-btn:hover{
+    background-color: #689d19;
+    border-color: #689d19;
+}
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li:hover, .woocommerce div.product .woocommerce-tabs ul.tabs li:hover, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li:hover, .woocommerce-page div.product .woocommerce-tabs ul.tabs li:hover,
+.woocommerce-demo-store .woocommerce-store-notice.demo_store,
+.sidebar-area .social-widget-menu ul li a,
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li a.active,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a.active,
+.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li a.active,
+.woocommerce-page div.product .woocommerce-tabs ul.tabs li a.active,
+.woocommerce-account .entry-content .woocommerce-MyAccount-navigation ul li.is-active{
+    background-color: #689d19;
+}
+.main-banner-section-wrapper .slick-dots li.slick-active button:not(.aft-custom-qty-btn),
+.main-banner-section-wrapper .slick-dots li.slick-active button:not(.aft-custom-qty-btn):active,
+.main-banner-section-wrapper .slick-dots li.slick-active button:not(.aft-custom-qty-btn):focus,
+.main-banner-section-wrapper .slick-dots li.slick-active button,
+
+.entry-content > [class*="wp-block-"] a:not([class]):after,
+.entry-content > ul a:not([class]):visited:after,
+.entry-content > ol a:not([class]):visited:after,
+.entry-content > p a:not([class]):visited:after,
+.entry-content > [class*="wp-block-"] a:not([class]):hover:after,
+.entry-content > ul a:not([class]):after,
+.entry-content > ol a:not([class]):after,
+.entry-content > p a:not([class]):after,
+.author a.url.fn.n:after, div#respond p a:after,
+.comment-content a:after,
+b.fn a:after, #yith-quick-view-content div.summary .product_meta > span > a:after, .comment-metadata a:after, .wp-post-author-meta h4 a:after, footer.entry-footer .comments-link a:after, .woocommerce-account .woocommerce-MyAccount-content a:after, .woocommerce-checkout .woocommerce-form-coupon-toggle .woocommerce-info a.showcoupon:after, .woocommerce #content div.product div.summary a.compare.button:after, a.woocommerce-privacy-policy-link:after, a.woocommerce-terms-and-conditions-link:after, .woocommerce #content div.product div.summary .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse.show a:after, .woocommerce #content div.product div.summary .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse.show a:after, .woocommerce #content div.product div.summary a.compare.button:after, body.single .entry-summary .yith-wcwl-wishlistaddedbrowse a:after, body.single .entry-summary .yith-wcwl-wishlistexistsbrowse a:after, body.single .entry-summary .yith-wcwl-add-to-wishlist a.add_to_wishlist:after, .woocommerce #content div.product div.summary .product_meta > span a:after{
+    background-color: #689d19;
+}
+.entry-content h1 a:hover,
+.entry-content h2 a:hover,
+.entry-content h3 a:hover,
+.entry-content h4 a:hover,
+.entry-content h5 a:hover,
+.entry-content h6 a:hover,
+.entry-content > p a:not([class]),
+.entry-content > p a:not([class]):visited,
+.widget_text a:hover,
+#sidr .widget > ul > li a:hover,
+#secondary .widget > ul > li a:hover,
+body .cat-links a:hover,
+body .cat-links li a:hover,
+.blog-title h4 a:hover,
+.product-title a:hover,
+.woocommerce ul li .product-title a:hover,
+.woocommerce ul.products li.product .woocommerce-loop-product__title a:hover,
+.product-slider-widget.wide .content-caption .cat-links li a:hover,
+.product-slider-widget.wide .product-title a:hover,
+.contact-details .aft-show-field-title span.contact-icon i,
+footer.site-footer .primary-footer .tagcloud a:hover,
+footer.site-footer .tagcloud a:hover,
+.wp-block-tag-cloud a:hover, .tagcloud a:hover,
+.wp-calendar-nav-next a:hover, .wp-calendar-nav-prev a:hover,
+.site-footer .secondary-footer ul#footer-menu li a:hover,
+.site-footer .primary-footer ul li a:not(.button):hover, .site-footer .site-info a:hover,
+.woocommerce-info::before,
+footer.entry-footer .comments-link a:after,
+.support-wrap .suport-single .icon-box span.icon-box-circle i,
+.woocommerce nav.woocommerce-pagination ul li a.page-numbers:focus,
+.woocommerce nav.woocommerce-pagination ul li a.page-numbers:hover,
+.widget > ul > li a:hover,
+.wp-block-tag-cloud a:hover,
+.tagcloud a:hover,
+td.woocommerce-grouped-product-list-item__label a:hover,
+.sidr-class-sidr-button-close,
+.sidr-class-sidr-button-close:visited,
+.sidr-class-sidr-button-close:hover,
+a.shipping-calculator-button,
+.header-style-3.header-style-center .account-user .af-my-account-menu li a:hover,
+.header-style-3.header-style-express .header-left-upper .account-user ul li a:hover,
+.header-style-3.header-style-default .account-user .af-my-account-menu li a:hover,
+.account-user .af-my-account-menu li a:hover,
+#wp-calendar tbody td#today,
+a:hover,
+a:focus,
+footer.entry-footer .comments-link a,
+body a:active{
+    color: #689d19;
+}
+.tagcloud a:hover,
+.woocommerce-account form.woocommerce-EditAccountForm.edit-account fieldset,
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing,
+.wp-block-tag-cloud a:hover,
+.tagcloud a:hover{
+    border-color: #689d19;
+}
+.author a.url.fn.n:hover, div#respond p a:hover, .navigation.post-navigation .nav-links a:hover,
+.author a.url.fn.n:hover,
+div#respond p a:hover,
+.navigation.post-navigation .nav-links a:hover,
+.wp-post-author-meta h4 a:hover,
+p.awpa-website a:hover{
+    color: #689d19;
+}
+.woocommerce div.product .entry-summary p.price ins,
+.woocommerce div.product .entry-summary p.price del,
+.woocommerce div.product .single_variation_wrap span.price,
+.woocommerce div.product p.price,
+body .autocomplete-suggestion b{
+    color: #689d19 !important;
+}
